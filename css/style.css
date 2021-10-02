@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+html {
+  font-size: 13px;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-color: #ecf2f8;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.mainsec {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  background-color: white;
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
+
+.imgsec img {
+  width: 23.5rem;
+}
+
+.textsec h3 {
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.textsec .para {
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.textsec .avatar {
+  border-radius: 30rem;
+  width: 5rem;
+  margin-left: -16rem;
+  margin-bottom: -5rem;
+}
+
+.textsec .share {
+  margin-bottom: 1rem;
+  margin-right: -15rem;
+  background-color: #9eafc2;
+  border-radius: 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.textsec .pop {
+  position: relative;
+  bottom: 7rem;
+  background-color: #6d7f97;
+  display: inline;
+  width: 10rem;
+  height: 2.5rem;
+  text-align: center;
+  margin-left: 13rem;
+  border-radius: 0.2rem;
+}
+
+.textsec #parent #popup {
+  display: none;
+}
+
+.textsec #parent:hover #popup {
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .mainsec {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    width: 73rem;
+    margin-top: 10rem;
+    height: 20rem;
+    margin-left: 13rem;
+  }
+  .imgsec img {
+    width: 37rem;
+    height: 20rem;
+  }
+  .textsec .pop {
+    margin-left: 20rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
